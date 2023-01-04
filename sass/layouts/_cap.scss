@@ -1,0 +1,57 @@
+
+ .cap {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: var(--cap--bgr--color--);
+   background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+  url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   text-align: center;
+   }
+  .cap__content {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 696px;
+  }
+   .cap__title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   color: var(--primary--acent--btn--color--);
+   text-transform: uppercase;
+   }
+   .cap__btn {
+    padding: 10px 19px 10px 20px;
+    font-family: inherit;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.06em;
+   background-color: var(--cap--btn-bgr--color--);
+   color: var(--primary--acent--btn--color--);
+   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+   &:focus{
+   background-color: var(--cap--bgr--focus--);
+   color: var(--primary--acent--btn--color--); }
+  
+}
+   
+  
+  

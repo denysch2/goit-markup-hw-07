@@ -1,0 +1,110 @@
+
+.header {
+    border-bottom: 1px solid var(---primary--border-color);
+  }
+  .header__list {
+    display: flex;
+    margin-left: 93px;
+  }
+  .header__list .item +.item {
+    margin-left: 50px;
+  }
+  .header__logo {
+    display: block;
+    display: flex;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo--header--color--);
+    text-decoration: none;
+    }
+    .header__logo--item{
+        color: var(--accent--header--color--);
+    }
+    .header__link {
+        position: relative;
+        display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second--header--color--);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+   
+  
+    .header__addres { 
+        margin-left: auto;
+        display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary--header--color--);    
+   & .item +.item {
+      margin-left: 40px;
+  }
+    }
+   
+  
+    .header__icon {
+        display: inline-block;
+        margin-right: 10px;
+        fill: currentColor; 
+     
+    }
+
+    .header__mail {
+        display: flex;
+        align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary--header--color--);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .header__tel {
+        display: flex;
+        align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary--header--color--);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    .current {
+        color: var(--accent--header--color--);
+        &::after {
+          position: absolute;
+          content: "";
+          display: block;
+          bottom: 0px;
+          width: 100%;
+          height: 4px;
+          background-color: var(--accent--header--color--);
+          border-radius: 2px;
+    
+        }
+  
+    }
+   
+  
+    .header__link:hover,
+    .header__link:focus,
+    .link:hover,
+    .link:focus
+    .header__tel:hover,
+    .header__mail:focus {
+        color: var(--accent--header--color--);
+        
+    }
+    
+    

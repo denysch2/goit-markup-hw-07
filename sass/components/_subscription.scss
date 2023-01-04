@@ -1,0 +1,58 @@
+.subscription {
+    width: 570px;
+    }
+    .subscription .form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    & input {
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        background-color: #2f303a;
+        padding-left: 12px;
+        color: var(--primary--header--color--);
+        }
+
+    }
+    
+    .subscription .join-in {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(---primary--border-color);
+    text-transform: uppercase;
+    
+    margin-bottom: 20px;
+    }
+    .subscription .button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 28px;
+    overflow: hidden;
+    border: 0em;
+    background-color: var(--accent--header--color--);
+    color: var(--footer--logo--);
+    }
+    .icon-send {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translatey(-50%);
+    }
+    
+    
+    

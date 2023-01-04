@@ -1,0 +1,85 @@
+.footer{
+    padding-top: 60px;
+   background-color: var(--footer--bgr--color--);
+   padding-bottom: 40px;
+   }
+   .footer__conteiner {
+    display: flex;
+    
+    align-items: baseline;
+
+   }
+   .footer__address {
+    display: block;
+   }
+   .footer__logo {
+       display: inline-block;
+    margin-bottom: 28px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+   color: var(--footer--logo--);
+    text-decoration: none;
+    }
+    .footer__logo--text{
+        color: var( --accent--header--color--);
+    }
+   .footer__maps {
+    display: block;
+    margin-bottom: 12px;
+   font-style: normal;
+   color: var(--primary--acent--btn--color--);
+   }
+   .footer__link {
+    display: block;
+    font-style: normal;
+   color: var(--footer--link--);
+   }
+   .footer__mail {
+    margin-bottom: 12px;
+   }
+   .footer__join{
+    margin-left: auto;
+    color: var(--footer--logo--);
+    margin-right: 93px;
+   }
+.footer__join--text {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer--logo--); 
+}
+
+.footer__icon--list {
+    display: flex;
+    & .item + .item {
+        margin-left: 10px;
+      }
+}
+
+.footer__icon--link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+color: var(--white-color); 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover, &:focus {
+    background-color: var(--accent--header--color--);
+    }
+
+ }
+ .footer__icon {
+    fill: currentColor;
+   }
+
